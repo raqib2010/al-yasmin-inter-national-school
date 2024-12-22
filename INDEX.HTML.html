@@ -1,0 +1,2516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Yasmin International School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Yasmin International School</title>
+
+    <!-- External Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a; /* Dark background for contrast */
+            color: #fff;
+        }
+
+        /* Styling for the topbar */
+        .dlab-topbar-right {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.8); /* Slightly darker to contrast */
+            padding: 10px;
+            border-radius: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            transform: rotate(deg); /* Rotation for a unique angle */
+        }
+
+        /* Styling for the icons container */
+        .dlab-topbar-right ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Hover effects on list items (making the icons rotate) */
+        .dlab-topbar-right ul li {
+            transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+        }
+
+        .dlab-topbar-right ul li:hover {
+            transform: rotate(360deg) scale(1.3); /* Add rotation and scaling effect */
+            box-shadow: 0 10px 50px rgba(255, 0, 0, 0.6); /* Add glowing effect */
+        }
+
+        /* Styling for the individual icons */
+        .site-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-color: #ff0055; /* Bright neon color */
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            font-size: 28px;
+            color: white;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        /* Hover effect for the buttons */
+        .site-button:hover {
+            background-color: #ff6600; /* Vibrant hover color */
+            transform: scale(1.5) rotate(45deg); /* Scaling and rotation */
+            box-shadow: 0 5px 30px rgba(255, 100, 0, 0.7);
+        }
+
+        /* Icon color adjustments */
+        .fab {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        /* Pulse effect when hovered */
+        .site-button:hover .fab {
+            animation: pulse 1s infinite; /* Icon pulsation */
+            color: #fff;
+        }
+
+        /* Pulse animation for the icons */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.3);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+         /* Styling for the topbar */
+        .dlab-topbar-right {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.8); /* Slightly darker to contrast */
+            padding: 10px;
+            border-radius: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            transform: rotate(deg); /* Rotation for a unique angle */
+        }
+
+        /* Styling for the icons container */
+        .dlab-topbar-right ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Hover effects on list items (making the icons rotate) */
+        .dlab-topbar-right ul li {
+            transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+        }
+
+        .dlab-topbar-right ul li:hover {
+            transform: rotate(360deg) scale(1.3); /* Add rotation and scaling effect */
+            box-shadow: 0 10px 50px rgba(255, 0, 0, 0.6); /* Add glowing effect */
+        }
+
+        /* Styling for the individual icons */
+        .site-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-color: #ff0055; /* Bright neon color */
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 28px;
+            color: white;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        /* Hover effect for the buttons */
+        .site-button:hover {
+            background-color: #ff6600; /* Vibrant hover color */
+            transform: scale(1.5) rotate(45deg); /* Scaling and rotation */
+            box-shadow: 0 5px 30px rgba(255, 100, 0, 0.7);
+        }
+
+        /* Icon color adjustments */
+        .fab {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        /* Pulse effect when hovered */
+        .site-button:hover .fab {
+            animation: pulse 1s infinite; /* Icon pulsation */
+            color: #fff;
+        }
+
+        /* Pulse animation for the icons */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.3);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Background animation for the topbar */
+        .dlab-topbar-right {
+            animation: backgroundAnimation 6s infinite alternate;
+        }
+
+        /* Animation to change background colors */
+        @keyframes backgroundAnimation {
+            0% {
+                background-color: rgba(255, 0, 255, 0.8); /* Magenta */
+            }
+            25% {
+                background-color: rgba(255, 215, 0, 0.8); /* Yellow */
+            }
+            50% {
+                background-color: rgba(0, 255, 255, 0.8); /* Cyan */
+            }
+            75% {
+                background-color: rgba(255, 0, 0, 0.8); /* Red */
+            }
+            100% {
+                background-color: rgba(0, 255, 0, 0.8); /* Green */
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="dlab-topbar-right">
+        <ul>
+            <li><a class="site-button fab fa-facebook-f" href="https://www.facebook.com/ALYasmin" target="_blank"></a></li>
+            <li><a class="site-button fab fa-twitter" href="https://twitter.com/AYISRiyadh" target="_blank"></a></li>
+            <li><a class="site-button fab fa-youtube" href="https://www.youtube.com/@alyasmininternationalschoo6470" target="_blank"></a></li>
+            <li><a class="site-button fab fa-instagram" href="https://www.instagram.com/ayis_riyadh/?hl=en" target="_blank"></a></li>
+        </ul>
+    </div>
+
+   
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Yasmin International School</title>
+<style>
+#about-us {
+    background: linear-gradient(135deg, #00bcd4, #ff4081);
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+#about-us .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about-us .content {
+    flex: 1;
+    padding-right: 40px;
+}
+
+#about-us h2 {
+    font-size: 3.5em;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    animation: textGlow 2s ease-in-out infinite alternate;
+    font-weight: 700;
+}
+
+#about-us p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#about-us .btn-campus {
+    display: inline-block;
+    background-color: #ff2d92;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+}
+
+#about-us .btn-campus:hover {
+    background-color: #ff4081;
+    transform: scale(1.1);
+}
+
+#about-us .image-container {
+    flex: 1;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-us .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#about-us .image-container img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 10px rgba(0, 188, 212, 0.7), 0 0 20px rgba(0, 188, 212, 0.6);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(0, 188, 212, 1), 0 0 60px rgba(0, 188, 212, 0.8);
+    }
+}
+</style>
+    <!-- External Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #2b2b2b;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00bcd4, #8bc34a);
+            padding: 80px 0;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            color: white;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.4em;
+            margin-top: 10px;
+            color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #00bcd4;
+            border-radius: 5px;
+        }
+
+        .marquee-container {
+            background-color: #212121;
+            color: #00bcd4;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .marquee-container marquee {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Section Styles */
+        .content-section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .content-section h2 {
+            font-size: 3em;
+            color: #00bcd4;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .content-section p {
+            font-size: 1.1em;
+            color: #ddd;
+            line-height: 1.8;
+            margin-bottom: 50px;
+        }
+
+        #events {
+    background-color: #046307; /* Bright blue background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    animation: shake 0.5s infinite alternate;
+}
+
+.events h2 {
+    font-size: 3em;
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 4px;
+    animation: rainbow 3s linear infinite; /* Rainbow text effect */
+}
+
+.events ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.events li {
+    font-size: 1.8em;
+    color: #fff;
+    margin: 15px 0;
+    background-color: #ff4500;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.events li:hover {
+    transform: scale(1.1);
+    background-color: #32cd32; /* Bright green on hover */
+    color: black;
+}
+
+@keyframes  {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    14% {
+        color: orange;
+    }
+    28% {
+        color: yellow;
+    }
+    42% {
+        color: green;
+    }
+    57% {
+        color: blue;
+    }
+    71% {
+        color: indigo;
+    }
+    85% {
+        color: violet;
+    }
+    100% {
+        color: red;
+    }
+}
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        /* Admission Banner */
+        .admission-banner {
+            background: linear-gradient(135deg, #ff4081, #ff9800);
+            padding: 60px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .admission-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .admission-text {
+            font-size: 1.2em;
+            color: white;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn-admission {
+            padding: 15px 40px;
+            background-color: #fff;
+            color: #ff4081;
+            font-size: 1.2em;
+            font-weight: 600;
+            border-radius: 30px;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn-admission:hover {
+            background-color: #ff9800;
+            color: white;
+            transform: translateY(-5px);
+        }
+        /* Button for Our Campus Section */
+.btn-campus {
+    display: inline-block;
+    background-color: #00bcd4; /* Button color */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-campus:hover {
+    background-color: #ff4081; /* Hover color */
+    transform: scale(1.05);
+}
+/* Our Campus Section Styles */
+#campus {
+    background-color: #f7f7f7;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/* Crazy Cool Header */
+#campus h2 {
+    font-size: 4rem;
+    color: #ff4081; /* Hot Pink */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-family: 'Comic Sans MS', sans-serif;
+    animation: textMove 2s ease-out infinite alternate;
+}
+
+@keyframes textMove {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+#campus p {
+    font-size: 1.2rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: transform 0.5s ease-in-out;
+}
+
+#campus p:hover {
+    transform: scale(1.1);
+}
+
+/* Gallery Container */
+.campus-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    position: relative;
+    animation: galleryMove 3s ease-in-out infinite alternate;
+}
+
+/* Crazy Animations for Gallery */
+@keyframes galleryMove {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+/* Individual Item Styles */
+.campus-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.campus-item:hover {
+    transform: scale(1.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border: 5px solid #ff4081;
+}
+
+/* Image Styling */
+.campus-img {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Crazy Image Hover Effects */
+.campus-img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2) saturate(1.5);
+}
+
+/* Image Caption Styles */
+.image-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.campus-item:hover .image-caption {
+    opacity: 1;
+}
+
+/* Glitch Effect on Hover */
+.campus-item:hover .image-caption {
+    animation: glitch 0.5s alternate infinite;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 1px 0 red, -1px 0 blue;
+        transform: translate(-2px, 2px);
+    }
+    50% {
+        text-shadow: 1px 0 green, -1px 0 yellow;
+        transform: translate(2px, -2px);
+    }
+    100% {
+        text-shadow: 1px 0 blue, -1px 0 red;
+        transform: translate(-2px, 2px);
+    }
+}
+
+/* Responsive Design for Crazy Look */
+@media (max-width: 768px) {
+    #campus h2 {
+        font-size: 3rem;
+    }
+
+    .campus-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .campus-item {
+        transform: scale(1.05);
+    }
+
+    .campus-img {
+        max-width: 280px;
+    }
+}
+}
+        /* Gallery Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            padding: 40px 0;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #212121;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
+            padding: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ff4081;
+        }
+        #contact {
+    background: linear-gradient(to right, #ff5f6d, #ffc3a0); /* Fun, vibrant gradient background */
+    padding: 50px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg); /* Slightly tilted container for a fun effect */
+}
+
+.contact h2 {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Bold shadow */
+    animation: bounce 1s infinite alternate; /* Bounce animation */
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px;
+    animation: fadeIn 3s ease-in-out infinite alternate;
+    font-weight: bold;
+    text-transform: uppercase; /* Makes text all caps */
+}
+
+.email, .phone, .address {
+    color: #ffeb3b;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.email:hover, .phone:hover, .address:hover {
+    transform: scale(1.2) rotate(10deg); /* Makes the text grow and rotate on hover */
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+ /* Gallery Button Style */
+.btn-gallery {
+    display: inline-block;
+    background-color: #00bcd4;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-gallery:hover {
+    background-color: #ff4081;
+    transform: scale(1.05);
+}
+
+/* Gallery Grid Styles */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff4081;
+    text-decoration: none;
+    cursor: pointer;
+}
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+CSS (Modal Styles):
+css
+Copy code
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff4081;
+    text-decoration: none;
+    cursor: pointer;
+}
+JavaScript (for Modal functionality):
+javascript
+Copy code
+// Open the Modal with the image source
+function openModal(src) {
+    document.getElementById("imageModal").style.display = "block";
+    document.getElementById("modalImage").src = src;
+}
+
+// Close the Modal
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+// Open the Modal with the image source
+function openModal(src) {
+    document.getElementById("imageModal").style.display = "block";
+    document.getElementById("modalImage").src = src;
+}
+
+// Close the Modal
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+        /* WhatsApp Floating Button */
+        .float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            padding: 20px;
+            font-size: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .float:hover {
+            transform: scale(1.1);
+            background-color: #128c7e;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            nav a {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+
+            .content-section h2 {
+                font-size: 2.5em;
+            }
+
+            .events ul li {
+                font-size: 1.2em;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .gallery-item img {
+                max-width: 100%;
+            }
+        }
+      
+    </style>
+</head>
+<body>
+<body>
+  
+    <!-- Header Section -->
+    <header>
+
+    
+
+  <img src="C:\Users\Lenovo\Downloads\yasmin logo.png" alt="logo" align="left" /height=50 width=200> 
+<img src="C:\Users\Lenovo\Downloads\atta logo.png" alt="atta logo" align="right" / height=50 width=200>
+        <h1>Al Yasmin International School</h1>
+        <p>Where Excellence Meets Education</p>
+       
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#academics">Academics</a>
+        <a href="#events">Events</a>
+        
+        
+    </nav>
+
+
+<!-- Modal -->
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+    <!-- Marquee Section -->
+    <div class="marquee-container">
+        <marquee>Welcome to Al Yasmin International School  – Shaping the Future with Knowledge!</marquee>
+    </div>
+
+    <!-- Main Content Sections -->
+
+    <div class="content-section" id="about-us">
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>Al Yasmin International School is committed to providing a nurturing environment that encourages academic excellence and personal growth. Our mission is to foster well-rounded students who are prepared for the challenges of the future.</p>
+        </div>
+    </div>
+    <style>
+#academics {
+    background-color: #f39c12;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.academics {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: linear-gradient(45deg, #ff6b81, #f39c12, #8e44ad);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    animation: pulse 1.5s infinite alternate;
+    position: relative;
+}
+
+.academics h2 {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+.academics h2::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    animation: rotate 2s infinite linear;
+}
+
+.academics p {
+    font-size: 22px;
+    line-height: 1.8;
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.academics p:hover {
+    color: #fffb00;
+    text-decoration: underline;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+}
+
+#academics:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: radial-gradient(circle, rgba(243, 156, 18, 0.6), rgba(143, 68, 173, 0));
+    z-index: -1;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .academics {
+        padding: 30px;
+    }
+
+    .academics h2 {
+        font-size: 36px;
+    }
+
+    .academics p {
+        font-size: 18px;
+    }
+}
+</style>
+    <div class="content-section" id="academics">
+    <div class="academics">
+        <h2>Our Academics❗</h2>
+        <p>We offer a comprehensive curriculum designed to challenge and inspire students. From primary through to high school, our programs are tailored to prepare students for success in their future educational and career paths.</p>
+    </div>
+</div>
+
+    <div class="content-section" id="events">
+    <div class="events">
+        <h2>Upcoming Events❗</h2>
+        <ul>
+            <li> ✨ Annual Sports Day - January 20, 2025</li>
+            <li> ✨ Science Fair - February 15, 2025</li>
+            <li> ✨ Parents' Evening - March 5, 2025</li>
+        </ul>
+    </div>
+</div>
+<div class="content-section" id="events">
+    <div class="events">
+        <h2></h2>
+        <div class="section-full text-white bg-img-fix content-inner overlay-black-dark counter-staus-box style-1" style="background-image:url(images/background/bg8.jpg); background-size: cover; background-attachment: fixed;">
+            <div class="container">
+                <div class="section-head text-center">
+                    <h2 class="title" style="font-family: 'Roboto', sans-serif; font-size: 50px; color: #fff; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 15px rgba(255,255,255,0.6);">Our Goals</h2>
+                    <p style="font-family: 'Open Sans', sans-serif; font-size: 22px; max-width: 900px; margin: 0 auto; color: #fff; font-weight: 300; text-shadow: 0 0 10px rgba(255,255,255,0.6);">Facilitate holistic development of children as emotionally intelligent, intellectually competent, spiritually stable, socially sensitive and professionally competent global citizens.</p>
+                </div>
+                <div class="row" style="margin-top: 40px;">
+                    <!-- Certified Teachers -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-6 m-b30 counter-style-5">
+                        <div class="icon-bx-wraper center" style="transition: transform 0.5s ease; text-align: center; transform: scale(1); position: relative;">
+                            <div class="icon-lg m-b5" style="font-size: 70px; color: #39FF14;"> 
+                                <span class="icon-cell">
+                                    <i class="flaticon-graduated-student-avatar" style="text-shadow: 0 0 25px #39FF14;"></i>
+                                </span> 
+                            </div>
+                            <div class="icon-content">
+                                <h2 class="dlab-tilte counter text-primary" style="font-size: 80px; font-weight: bold; color: #39FF14; text-shadow: 0 0 20px #39FF14; margin: 0;">124</h2>
+                                <p style="font-size: 22px; color: #fff; font-weight: 400; text-shadow: 0 0 10px rgba(255,255,255,0.7);">Certified Teachers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Passing to Universities -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-6 m-b30 counter-style-5">
+                        <div class="icon-bx-wraper center" style="transition: transform 0.5s ease; text-align: center; position: relative;">
+                            <div class="icon-lg m-b5" style="font-size: 70px; color: #ff5e00;"> 
+                                <span class="icon-cell">
+                                    <i class="flaticon-school" style="text-shadow: 0 0 25px #ff5e00;"></i>
+                                </span> 
+                            </div>
+                            <div class="icon-content">
+                                <h2 class="dlab-tilte text-primary" style="font-size: 80px; font-weight: bold; color: #ff5e00; text-shadow: 0 0 20px #ff5e00;"><span class="counter">97</span>%</h2>
+                                <p style="font-size: 22px; color: #fff; font-weight: 400; text-shadow: 0 0 10px rgba(255,255,255,0.7);">Passing to Universities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Satisfied Parents -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-6 m-b30 counter-style-5">
+                        <div class="icon-bx-wraper center" style="transition: transform 0.5s ease; text-align: center; position: relative;">
+                            <div class="icon-lg m-b5" style="font-size: 70px; color: #FFFF00;"> 
+                                <span class="icon-cell">
+                                    <i class="flaticon-test" style="text-shadow: 0 0 25px #FFFF00;"></i>
+                                </span> 
+                            </div>
+                            <div class="icon-content">
+                                <h2 class="dlab-tilte text-primary" style="font-size: 80px; font-weight: bold; color: #FFFF00; text-shadow: 0 0 20px #FFFF00;"><span class="counter">100</span>%</h2>
+                                <p style="font-size: 22px; color: #fff; font-weight: 400; text-shadow: 0 0 10px rgba(255,255,255,0.7);">Satisfied Parents</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add this CSS for fun hover effects and animations -->
+<style>
+    /* Fun hover effects for the icon boxes */
+    .icon-bx-wraper:hover {
+        transform: translateY(-15px) scale(1.1);
+        box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Neon glow effect on counters */
+    .counter {
+        font-size: 80px;
+        font-weight: 900;
+        color: #39FF14;
+        text-shadow: 0 0 15px #39FF14, 0 0 30px #39FF14;
+    }
+
+    /* Neon colors for the icons */
+    .flaticon-graduated-student-avatar, .flaticon-school, .flaticon-test {
+        font-size: 70px;
+        transition: all 0.4s ease-in-out;
+        color: inherit;
+        text-shadow: 0 0 25px rgba(255, 255, 255, 0.7);
+    }
+
+    .icon-cell:hover {
+        text-shadow: 0 0 35px #FF00FF, 0 0 50px #FF00FF;
+    }
+
+    /* Add parallax effect to background */
+    .bg-img-fix {
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    /* Text shadow for the titles */
+    .section-head h2 {
+        text-shadow: 0 0 15px #ffffff, 0 0 25px #ff5e00;
+    }
+
+    .section-head p {
+        text-shadow: 0 0 10px #ff5e00, 0 0 20px #ff5e00;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .section-head h2 {
+            font-size: 32px;
+        }
+        .counter {
+            font-size: 50px;
+        }
+    }
+</style>
+
+<!-- Add jQuery for the animated counter effect -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.counter').each(function () {
+            var $this = $(this);
+            var countTo = $this.attr('data-count');
+            
+            $({ countNum: $this.text() }).animate({
+                countNum: countTo
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function () {
+                    $this.text(this.countNum);
+                }
+            });
+        });
+    });
+</script>
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words of Wisdom</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #f39c12, #e74c3c, #9b59b6);
+            background-size: 300% 300%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #fff;
+        }
+
+        /* Animate gradient background */
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .content-section {
+            margin: 50px auto;
+            padding: 40px;
+            max-width: 1100px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Container for images and quotes */
+        .two-images-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .two-image-item img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .two-image-item img:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .principal-quote {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .principal-quote:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .principal-quote p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #fff;
+        }
+
+        .principal-quote p:first-child {
+            font-style: italic;
+            color: #ffdf00;
+        }
+
+        .principal-quote p:last-child {
+            font-weight: bold;
+            color: #1abc9c;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        .principal-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .principal-image img {
+            max-width: 220px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .principal-image img:hover {
+            transform: rotate(15deg);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .two-images-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .principal-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-section">
+        <!-- Regional Director Section -->
+        <div class="principal">
+            <h2>Note From Our Regional Director Of International Education</h2>
+            <div class="two-images-container">
+                <div class="two-image-item">
+                    <img src="C:/Users/Lenovo/Downloads/Regional Director Of Education.jpg" alt="Regional Director of International Education">
+                </div>
+                <div class="principal-quote">
+                    <p>"Success in education is a collaborative effort. Together, we can monitor your child’s progress, overcome any challenges, and celebrate their achievements."</p>
+                    <p>-Regional Director Of International Education</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Complex Manager Section -->
+        <div class="principal">
+            <h2>Note From Our Complex Manager</h2>
+            <div class="two-images-container">
+                <div class="two-image-item">
+                    <img src="C:/Users/Lenovo/Downloads/Complex Manager.jpg" alt="Complex Manager">
+                </div>
+                <div class="principal-quote">
+                    <p>"Education is not just about academics; it’s about nurturing every aspect of a child’s development. At Al Yasmin International School, we help every student achieve their fullest potential."</p>
+                    <p>-Complex Manager</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Principal's Section -->
+        <div class="principal">
+            <h2>Words of Wisdom from Our Principal</h2>
+            <div class="principal-container">
+                <div class="principal-image">
+                    <img src="C:/Users/Lenovo/Downloads/Principal.jpg" alt="Principal">
+                </div>
+                <div class="principal-quote">
+                    <p>"At Al Yasmin International School, we believe in nurturing the potential of each student, fostering a spirit of inquiry and resilience. Education is the key to unlocking a future full of opportunities and success. Together, we build a brighter tomorrow."</p>
+                    <p>By-Dr S.M Shaukat Perwez</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+    
+<!-- Our Campus Section -->
+
+<div class="content-section" id="campus">
+    <div class="campus">
+        <!-- Campus Button -->
+    <a href="#campus-gallery" class="btn-campus">Explore Our Campus</a>
+</div>
+        <h2>Our Campus</h2>
+        <p>Our campus is a vibrant space where creativity and innovation thrive! Explore our state-of-the-art facilities, spacious grounds, and lively environment!</p>
+
+        <div class="campus-gallery">
+            <!-- Image 1 -->
+            <div class="campus-item">
+                <img src="C:\Users\Lenovo\Downloads\Classroom.jpg" alt="Modern Classrooms" class="campus-img">
+                <p class="image-caption">Modern Classrooms</p>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="campus-item">
+                <img src="C:\Users\Lenovo\Downloads\Playground.jpg" alt="Spacious Playgrounds" class="campus-img">
+                <p class="image-caption">Spacious Playgrounds</p>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="campus-item">
+                <img src="C:\Users\Lenovo\Downloads\labs.png" alt="Innovative Science Labs" class="campus-img">
+                <p class="image-caption">Innovative Science Labs</p>
+            </div>
+            <!-- Image 4 -->
+            <div class="campus-item">
+             
+            <div class="campus-item">
+                <img src="C:\Users\Lenovo\Downloads\school ayis.jpg" alt="school ayis" class="campus-img">
+                <p class="image-caption">Al Yasmin International School </p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Admissions Open Section -->
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Column -->
+            <div class="col-md-7 m-md-b30">
+                <div class="admission-banner">
+                    <h4 class="admission-title">Admissions Now Open</h4>
+                    <p class="admission-text">Enroll today for the 2024–25 academic year and be a part of an exceptional educational journey at Al Yasmin International School!</p>
+                    <a href="https://forms.zohopublic.com/alyasmininternationalschool/form/ApplicationForm/formperma/cF_uZHyshSayNPJgZ2bAy5-uouV14LDLC1mIuVBpTCA" target="_blank" class="btn-admission">Enroll Now</a>
+                </div>
+            </div>
+<!-- Add the cool animation -->
+<style>
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+input:focus {
+    box-shadow: 0px 0px 8px rgba(255, 94, 77, 0.7);
+    border: 2px solid #feb47b;
+}
+
+button:hover {
+    background-color: #ff7e5f;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+</style>
+								
+           <!-- Right Column with Email Subscription -->
+<div class="col-md-5" style="background: linear-gradient(135deg, #ff7e5f, #feb47b); border-radius: 10px; padding: 40px 30px; box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15); text-align: center;">
+    <h4 class="email-heading" style="font-size: 2.5rem; font-family: 'Arial', sans-serif; color: #fff; text-transform: uppercase; letter-spacing: 2px; animation: fadeIn 2s ease-in-out;">Stay Updated</h4>
+    <p class="email-text" style="font-size: 1.2rem; color: #fff; font-family: 'Arial', sans-serif; margin-bottom: 30px;">Sign up to receive the latest updates about our programs and events!</p>
+    <form class="email-form" action="script/mailchamp.php" method="post">
+        <div class="input-group" style="border-radius: 10px; overflow: hidden;">
+            <input name="dzEmail" required="required" type="email" class="form-control" placeholder="Enter your email" style="padding: 15px; border: none; border-radius: 10px; font-size: 1rem; outline: none; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;">
+            <div class="input-group-addon" style="background-color: #ff7e5f; border: none; border-radius: 10px;">
+                <button name="submit" value="Submit" type="submit" class="btn-email-submit" style="padding: 15px 25px; font-size: 1.1rem; font-weight: bold; background-color: #feb47b; color: #fff; border: none; border-radius: 30px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">Subscribe</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+    <div class="content-section" id="contact">
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to learn more about our programs, feel free to reach out to us. We are here to help you!</p>
+        <p>Email: <span class="email">admin@alyasmin.edu.sa</span></p>
+        <p>Phone: <span class="phone">+966-11-478 8815 (24/7 Support Line)</span></p>
+        <p>Address: <span class="address">Al Yasmin International School, Post Box 250380, Riyadh -11391, Kingdom of Saudi Arabia.</span></p>
+        <p>Location: <span class="address">https://maps.app.goo.gl/TxeQPzbyHUhUHMjq6</span></p>
+    </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Yasmin International School</title>
+
+    <!-- External Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #2b2b2b;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00bcd4, #8bc34a);
+            padding: 80px 0;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            color: white;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.4em;
+            margin-top: 10px;
+            color: #f5f5f5;
+        }
+
+        /* Crazy Box Styles */
+        .crazy-boxes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .crazy-box {
+            width: 300px;
+            height: 300px;
+            background-color: #ff4081;
+            border: 5px solid #ff9800;
+            border-radius: 20px;
+            color: white;
+            padding: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            animation: crazyAnimation 1.5s infinite alternate;
+            position: relative;
+        }
+
+        .crazy-box:nth-child(2) {
+            background-color: #8bc34a;
+            border-color: #00bcd4;
+        }
+
+        .crazy-box:nth-child(3) {
+            background-color: #00bcd4;
+            border-color: #ff4081;
+        }
+
+        .crazy-box h3 {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+
+        @keyframes crazyAnimation {
+            0% {
+                transform: rotate(0deg);
+                background-color: #ff4081;
+            }
+            25% {
+                transform: rotate(10deg);
+                background-color: #8bc34a;
+            }
+            50% {
+                transform: rotate(-10deg);
+                background-color: #00bcd4;
+            }
+            75% {
+                transform: rotate(5deg);
+                background-color: #ff9800;
+            }
+            100% {
+                transform: rotate(0deg);
+                background-color: #ff4081;
+            }
+        }
+
+        .crazy-box p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<!-- Crazy Squares Section -->
+<div class="crazy-boxes">
+    <div class="crazy-box">
+        <h3>Al Yasmin</h3>
+        <p>Our schools offer excellent opportunities for students as they prepare for their future.</p>
+    </div>
+    <div class="crazy-box">
+        <h3>Our Aim</h3>
+        <p>To develop the total personality and help the child to be anchored in the cultural heritage of our nation.</p>
+</div>
+    <div class="crazy-box">
+        <h3>Qualified Teachers</h3>
+        <p>Our Dedicated Teachers Are A Major Factor In The Succes Of Al Yasmin International Schools.</p>
+    </div>
+</div>
+
+</body>
+</html>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Gallery</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #ff00ff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      color: #ff0;
+      font-size: 70px;
+      text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 255, 255, 0.8);
+      margin-top: 50px;
+      animation: pulse 1.5s infinite alternate, glowText 3s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { color: #ff0; text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 255, 255, 0.8); }
+      100% { color: #ff00ff; text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6), 0 0 30px rgba(255, 255, 255, 0.8); }
+    }
+
+    @keyframes glowText {
+      0% { text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0; }
+      50% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; }
+      100% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc; }
+    }
+
+    /* New Crazy Box for Gallery */
+    .gallery-box {
+      display: inline-block;
+      padding: 40px;
+      border: 10px solid #ff00ff;
+      background: linear-gradient(45deg, #ff6347, #ff1493, #00ffcc, #ff00ff);
+      border-radius: 25px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.6), 0 0 30px rgba(255, 0, 255, 0.8);
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1200px;
+      animation: rotateBox 5s infinite linear;
+    }
+
+    @keyframes rotateBox {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+      gap: 30px;
+    }
+
+    .staff-member, .hr-manager {
+      background-color: #00ffcc;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+      width: 220px;
+      text-align: center;
+      transform: rotate(-5deg);
+      transition: all 0.4s ease-in-out;
+      position: relative;
+      animation: popIn 0.5s ease-in-out;
+    }
+
+    @keyframes popIn {
+      0% { opacity: 0; transform: scale(0.5); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .staff-member img, .hr-manager img {
+      width: 100%;
+      border-radius: 50%;
+      max-width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 5px solid #ffcc00;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      transition: transform 0.5s ease, filter 0.5s ease;
+    }
+
+    .staff-member:hover, .hr-manager:hover {
+      transform: rotate(0deg) scale(1.1) translateY(-10px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 255, 255, 0.8);
+    }
+
+    .staff-member img:hover, .hr-manager img:hover {
+      transform: rotate(0deg) scale(1.3);
+      filter: brightness(1.5) contrast(1.2);
+    }
+
+    .staff-member h3, .hr-manager h3 {
+      font-size: 26px;
+      margin: 10px 0;
+      color: #ffcc00;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+      animation: textGlow 1.5s infinite alternate;
+    }
+
+    @keyframes textGlow {
+      0% { color: #ffcc00; text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00; }
+      100% { color: #ffff00; text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00; }
+    }
+
+    .staff-member p, .hr-manager p {
+      color: #333;
+      font-size: 16px;
+      font-style: italic;
+    }
+
+    .hr-manager {
+      background: radial-gradient(circle at top right, #ff6347, #ff1493);
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 0, 0.8);
+      animation: glow 1.5s ease-in-out infinite alternate;
+      transform: skewX(-10deg);
+      position: relative;
+    }
+
+    @keyframes glow {
+      0% { box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 0, 0.8); }
+      50% { box-shadow: 0 25px 50px rgba(0, 255, 255, 0.6), 0 0 20px rgba(255, 255, 0, 1); }
+      100% { box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 0, 0.8); }
+    }
+
+    .hr-manager img {
+      border: 8px solid #ffff00;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+      transition: transform 0.5s ease-in-out, filter 0.3s ease-in-out;
+    }
+
+    .hr-manager h3 {
+      font-size: 24px;
+      margin: 15px 0;
+      color: #ffff00;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .hr-manager p {
+      font-size: 18px;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .hr-manager:hover {
+      transform: skewX(0deg) translateY(px) scale(1.1);
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 255, 0, 1);
+    }
+
+    .hr-manager img:hover {
+      transform: rotate(0deg) scale(1.5);
+      filter: brightness(1.3);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meet Our HM'S!</h1>
+
+  <!-- Gallery Box -->
+  <div class="gallery-box">
+    <div class="gallery-container">
+      <div class="staff-member">
+        <img src="C:\Users\Lenovo\Downloads\rehana.jpg" alt="Rehana Amjad">
+        <h3>Rehana Amjad</h3>
+        <p>Head Mistress</p>
+      </div>
+      <div class="staff-member">
+        <img src="C:\Users\Lenovo\Downloads\HEAD MISTREES-NIKAT.png" alt="Head Mistress Nikhat">
+        <h3>Nikhat Anjum </h3>
+        <p>Head Mistress</p>
+      </div>
+
+      <!-- New Cooler Crazy HR Manager Box -->
+      <div class="hr-manager">
+        <img src="C:\Users\Lenovo\Downloads\Head Master-Altaf.png" alt="Head Master Mohammed Altaf">
+        <h3>Mohammed Altaf</h3>
+        <p>Head Master</p>
+      </div>
+
+      <div class="staff-member">
+        <img src="C:\Users\Lenovo\Downloads\Head Master-Rasheed Sir.png" alt="Head Master-Rasheed Nikhat">
+        <h3>Rasheed</h3>
+        <p>Head Master</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Gallery</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #ff00ff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      color: #fff;
+      font-size: 60px;
+      text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+      margin-top: 50px;
+      animation: pulse 1s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { color: #fff; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6); }
+      100% { color: #ffcc00; text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8); }
+    }
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+      gap: 30px;
+    }
+    .staff-member {
+      background-color: #00ffcc;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      width: 220px;
+      text-align: center;
+      transform: rotate(-5deg);
+      transition: all 0.3s ease-in-out;
+    }
+    .staff-member img {
+      width: 100%;
+      border-radius: 50%;
+      max-width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 5px solid #ffcc00;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+    .staff-member h3 {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #ffcc00;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .staff-member p {
+      color: #333;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .staff-member:hover {
+      transform: rotate(5deg) translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    }
+    .staff-member img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meet Our  Staff!</h1>
+
+  <div class="gallery-container">
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\MATHS TEACHER (1).png" alt="Staff Member 1">
+      <h3></h3>
+      <p>MATHS TEACHER</p>
+    </div>
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\Maths Teacher.png" alt="Staff Member 2">
+      <h3></h3>
+      <p>Maths Teacher</p>
+    </div>
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\BOY’S SECTION COORDINATOR.png" alt="Staff Member 3">
+      <h3></h3>
+      <p>BOY’S SECTION COORDINATOR</p>
+    </div>
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\H.O.D-STAEESH.png" alt="Staff Member 4">
+      <h3></h3>
+      <p>Head Of Social Deapartment</p>
+    </div>
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\BOY’S SECTION COORDINATOR (1).png" alt="Staff Member 4">
+      <h3></h3>
+      <p>BOY’S SECTION COORDINATOR </p>
+    </div>
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\Activity Incharge-Arputraj.png" alt="Staff Member 5">
+      <h3></h3>
+      <p>Activity Incharge-</p>
+    </div>
+    <div class="staff-member">
+      <img src="C:\Users\Lenovo\Downloads\mansoor.jpeg" alt="Staff Member 5">
+      <h3></h3>
+      <p>Urdu Teacher</p>
+    </div>
+  </div>
+
+</body>
+</html> 
+
+
+<!-- Gallery Section -->
+    <div class="content-section" id="gallery">
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <p>Explore some moments from our school events, activities, and more!</p>
+
+            <!-- View Gallery Button -->
+            <a href="#gallery" class="btn-gallery">View Gallery</a>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="C:\Users\Lenovo\Downloads\ART EXPO 2024.jpg" alt="ART EXPO 2024" class="gallery-img" onclick="openModal(this.src) height=200 width=200">
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Lenovo\Downloads\SPORTS CLOSING CEREMONY.jpg" alt="SPORTS CLOSING CEREMONY 2024" class="gallery-img"openModal(this.src)  height=200 width=200">
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Lenovo\Downloads\SUMMER ACTIVIES.jpg" alt="SUMMER ACTIVITIES 2024" class="gallery-img" openModal(this.src) height=200 width=200">
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Lenovo\Downloads\field trip.jpg" alt="field trip " class="gallery-img"openModal(this.src) height=200 width=200">
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Lenovo\Downloads\fild trp.jpg" alt="Summer Activities 2024" class="gallery-img" openModal(this.src) height=200 width=200">
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Lenovo\Downloads\DIGITAL.FEST.jpg" alt="DIGITALFEST 2024" class="gallery-img"  openModal(this.src)height=200 width=200">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+ <!-- Modal for viewing larger image -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Yasmin International School</title>
+
+    <!-- External Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- Gallery Section -->
+<div class="content-section" id="gallery">
+    <div class="gallery">
+        
+
+        <h2>Fahad P</h2>
+        <p>Class Teacher 8-D Al Yasmin International School</p>
+
+        <!-- View Gallery Button -->
+        <a href="Abdul Raqib" class="btn-gallery"> Fahad P</a>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="C:\Users\Lenovo\Downloads/Fahad P.jpg" alt="Fahad P" class="gallery-img" onclick="openModal(this.src)" />
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+/* General gallery styling */
+#gallery {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.gallery h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #ff3366; /* Vibrant pink */
+    animation: glow 2s ease-in-out infinite alternate;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px #fff, 0 0 25px #ff3366, 0 0 5px #ff3366;
+}
+
+.gallery p {
+    font-size: 1.5em;
+    color: #ffcc00; /* Bright yellow */
+    text-shadow: 2px 2px 5px #ffcc00;
+    animation: bounce 1s ease infinite;
+    margin-bottom: 30px;
+}
+
+/* View Gallery Button */
+.btn-gallery {
+    padding: 20px 40px;
+    background-color: #00ccff; /* Cyan */
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.btn-gallery:hover {
+    background-color: #ff0066; /* Hot pink */
+    transform: scale(1.1);
+}
+
+/* Crazy gallery grid layout */
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery-item {
+    width: 100px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+}
+
+.gallery-item:hover {
+    transform: rotate(10deg) scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.6);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+    opacity: 0.8;
+}
+
+/* Glow animation for title */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #ff3366, 0 0 20px #ff3366, 0 0 30px #ff3366, 0 0 40px #ff3366;
+    }
+    100% {
+        text-shadow: 0 0 10px #ff3366, 0 0 20px #ff3366, 0 0 30px #ff0066, 0 0 40px #ff0066;
+    }
+}
+
+/* Bounce animation for description */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+</style>
+ <!-- Modal for viewing larger image -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+<!-- Gallery Section -->
+<div class="content-section" id="gallery">
+    <div class="gallery">
+        <h2>Designed And Developed By- Mohammed Abdul Raqib!</h2>
+        <p> </p>
+       <p> Al Yasmin International School</p>
+           
+        
+
+        <!-- View Gallery Button -->
+        <a href="Abdul Raqib" class="btn-gallery"> Abdul Raqib!</a>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="C:/Users/Lenovo/Downloads/rtaqib.jpeg" alt="Abdul Raqib" class="gallery-img" onclick="openModal(this.src)" />
+                <p>Designed By- Abdul Raqib</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for viewing larger image -->
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<style>
+/* General gallery styling */
+#gallery {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.gallery h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #ff3366; /* Neon pink */
+    animation: glow 2s ease-in-out infinite alternate, shake 1s ease infinite;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #ff3366, 0 0 20px #ff3366, 0 0 30px #ff0066;
+    margin-bottom: 20px;
+}
+
+.gallery p {
+    font-size: 1.6em;
+    color: #00ffcc; /* Bright cyan */
+    animation: bounce 1s ease infinite;
+    margin-bottom: 30px;
+}
+
+/* View Gallery Button */
+.btn-gallery {
+    padding: 20px 50px;
+    background-color: #ff3366; /* Neon pink */
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.btn-gallery:hover {
+    background-color: #ff0066; /* Hot pink */
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8);
+}
+
+/* Crazy gallery grid layout */
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    transform: rotate(5deg);
+}
+
+.gallery-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    position: relative;
+    background: linear-gradient(45deg, #ff0066, #00ccff);
+    animation: rotateItem 3s infinite alternate ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: rotate(20deg) scale(1.2);
+    box-shadow: 0 0 50px rgba(255, 255, 0, 0.8), 0 0 30px rgba(255, 0, 255, 0.6);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+    filter: brightness(0.8);
+}
+
+.gallery-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Crazy Glow animation for title */
+@keyframes glow {
+    0% { text-shadow: 0 0 15px #ff3366, 0 0 25px #ff3366, 0 0 35px #ff0066; }
+    100% { text-shadow: 0 0 20px #ff0066, 0 0 40px #ff0066, 0 0 60px #ff3366; }
+}
+
+/* Bounce animation for description */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Shake animation for header */
+@keyframes  {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+/* Rotate and scale for gallery items */
+@keyframes rotateItem {
+    0% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    transition: transform 0.5s ease;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff3366;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title with Two Images</title>
+    <style>
+        /* Basic box styling */
+        .box {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        /* Title Styling */
+        .box h1 {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Image Styling */
+        .box img {
+            width: 45%;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Container for images */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Thank You Al Yasmin International School</h1>
+        <div class="image-container">
+            <img src="C:\Users\Lenovo\Downloads\saudi flag.png" alt="Image 2">
+            <img src="C:\Users\Lenovo\Downloads\indian flag.png" alt="Image 2">
+        </div>
+    </div>
+</body>
+</html>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Al Yasmin International School | <a href="#privacy-policy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+ <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send?phone=966500506979&text=Al Yasmin International School" class="float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- External Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</body>
+</html>
+
+
+
+
+
+
+
